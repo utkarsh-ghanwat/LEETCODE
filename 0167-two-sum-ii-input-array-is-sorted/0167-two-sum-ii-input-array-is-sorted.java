@@ -9,7 +9,7 @@ class Solution {
             int sum = numbers[left] + numbers[right];
 
             if(sum == target){
-                return new int[] {left+1,right+1};
+                return new int[] {left+1,right+1}; // 1 indexed array
             }
             else if (sum < target){
                 left++;
