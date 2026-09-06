@@ -6,9 +6,9 @@ class Solution {
         int maxArea=0;
 
         while(left < right){
-            int h = Math.min(height[left],height[right]);
-            int w= right - left;
-            int area = h*w;
+            int length = Math.min(height[left],height[right]);
+            int width = right - left;
+            int area = length*width;
 
             maxArea = Math.max(maxArea, area);
 
